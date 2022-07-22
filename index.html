@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="nav container">
+                <a href="index.html"><h1 class="logo">Ecommerce</h1></a>
+                <i class='bx bx-shopping-bag' id="cart-icon"></i>
+
+                <!--cart-->
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart </h2>
+                    <div class="cart-content">
+    
+                    </div>    
+                        <!--total-->
+                        <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                        </div>
+                    <!--BUy button-->
+                    <a href="payments.html"><button type="button" class="btn btn-warning"> Buy Now</button> </a>
+                    <!--cart close-->
+                        <i class='bx bx-x' id="close-cart"></i>
+                        
+                    
+                    
+                </div>
+            </div>
+          </nav>
+       
+    </header> 
+     <!--categories-->
+     <div class="categories">
+      <div class="container">
+          <br>
+          <div class="row">
+            <div class="col">
+              <img src="images/clothing.png" alt="" class="category-img">
+              <h5>Clothing</h5>
+            </div>
+            <div class="col">
+              <img src="images/electronics.png" alt="" class="category-img">
+              <h5>Electronics</h5>
+            </div>
+            <div class="col">
+              <img src="images/product6.jpg" alt="" class="category-img">
+              <h5>Accessories</h5>
+            </div>
+            <div class="col">
+              <img src="images/prod7.png" alt="" class="category-img">
+              <h5>Watch</h5>
+            </div>
+            <div class="col">
+              <img src="images/product8.jpg" alt="" class="category-img">
+              <h5>Footwear</h5>
+            </div>
+            <div class="col">
+              <img src="images/product5.jpg" alt="" class="category-img">
+              <h5>Sunglasses</h5>
+            </div>
+            <div class="col">
+              <img src="images/prod9.png" alt="" class="category-img">
+              <h5>Bags & Luggage</h5>
+            </div>
+            </div>
+          </div>
+        </div>
+  </div>
+
+    <!--sliders-->
+    <div class="slider-div">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="images/ban.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/ban2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/ban3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/ban4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/ban5.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+   
+    
+   
+    <!--shopp-->
+    <section class="shop container">
+        <h2 class="section-title">Trending <span class="second-text">Products</span> </h2>
+        <br>
+    <!--objects-->
+    <div class="shop-content">
+        <div class="product-box">
+            <a href="adidas-tshirt.html"><img src="images/product1.jpg" alt="" class="product-img"></a>
+            <h2 class="product-title">Adidas T-shirt</h2>
+            <span class="price">$25</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+            <a href="aviator-glasses.html"><img src="images/product5.jpg" alt="" class="product-img"></a>
+            <h2 class="product-title">Aviator Glasses</h2>
+            <span class="price">$15</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+            <a href="adidas-running-shoes.html"><img src="images/product8.jpg" alt="" class="product-img"></a>
+            <h2 class="product-title"> Running Shoes</h2>
+            <span class="price">$70</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+            <a href="cap.html"><img src="images/product6.jpg" alt="" class="product-img"></a>
+            <h2 class="product-title">Cap</h2>
+            <span class="price">$10</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+            <a href="watch.html"><img src="images/prod7.png" alt="" class="product-img"></a>
+            <h2 class="product-title">Watch</h2>
+            <span class="price">$25</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+
+        <div class="product-box">
+            <a href="sunglasses.html"><img src="images/prod8.png" alt="" class="product-img"></a>
+            <h2 class="product-title">Sunglasses</h2>
+            <span class="price">$70</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+            <a href="earphone.html"><img src="images/prod5.png" alt="" class="product-img"></a>
+            <h2 class="product-title">Wireless Earphone</h2>
+            <span class="price">$45</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        
+        <div class="product-box">
+            <a href="nike.html"><img src="images/prod4.png" alt="" class="product-img"></a>
+            <h2 class="product-title">NIKE Running Shoes</h2>
+            <span class="price">$70</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+            <a href="smart-watch.html"><img src="images/electronics.png" alt="" class="product-img"></a>
+            <h2 class="product-title">Smart Watches</h2>
+            <span class="price">$35</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        <div class="product-box">
+            <a href="bag.html"><img src="images/prod9.png" alt="" class="product-img"></a>
+            <h2 class="product-title">Luggage Bag</h2>
+            <span class="price">$75</span>
+            <i class='bx bx-shopping-bag add-cart'></i>
+        </div>
+
+        
+    </div>
+
+</section>
+<hr>
+
+
+
+<!--Features-->
+<h2 class="section-title">Features</h2>
+<div class="features">
+  <div class="feature">
+      <img src="images/shipping.png" alt="" class="featureIcon">
+      <span class="featureTitle">FAST SHIPPING</span>
+      <span class="featureDesc">Fast worldwide shipping on all orders.</span>
+  </div>
+  <div class="feature">
+      <img class="featureIcon" src="images/return.png" alt="">
+      <span class="featureTitle">30 DAYS RETURN</span>
+      <span class="featureDesc">No question return and easy refund in 14 days.</span>
+  </div>
+  <div class="feature">
+      <img class="featureIcon" src="images/gift.png" alt="">
+      <span class="featureTitle">GIFT CARDS</span>
+      <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+  </div>
+  <div class="feature">
+      <img class="featureIcon" src="images/contact.png" alt="">
+      <span class="featureTitle">CONTACT US!</span>
+      <span class="featureDesc">Keep in touch via email and support system.</span>
+  </div>
+</div>
+
+<!--Brands-->
+<h2 class="section-title">Most <span class="second-text">Popular</span> </h2>
+<div class="brands">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="images/logo11.jpg" alt="" class="brand-img">
+      </div>
+
+      <div class="col">
+        <img src="images/logo22.jpg" alt="" class="brand-img">
+      </div>
+
+      <div class="col">
+        <img src="images/logo33.jpg" alt="" class="brand-img">
+      </div>
+      
+      <div class="col">
+        <img src="images/logo7.png" alt="" class="brand-img">
+      </div>
+
+      <div class="col">
+        <img src="images/logo5.jpg" alt="" class="brand-img">
+      </div>
+
+      <div class="col">
+        <img src="images/logo3.jpg" alt="" class="brand-img">
+      </div>
+
+      <div class="col">
+        <img src="images/logo6.png" alt="" class="brand-img">
+      </div>
+
+    </div>
+  </div>
+</div>
+<hr>
+
+
+
+
+<!--FOOTER-->
+<footer>
+  <div class="footerLeft">
+      <div class="footerMenu">
+          <h1 class="fMenuTitle">About Us</h1>
+          <ul class="fList">
+              <li class="fListItem">Company</li>
+              <li class="fListItem">Contact</li>
+              <li class="fListItem">Careers</li>
+              <li class="fListItem">Affiliates</li>
+              <li class="fListItem">Stores</li>
+          </ul>
+      </div>
+      <div class="footerMenu">
+          <h1 class="fMenuTitle">Useful Links</h1>
+          <ul class="fList">
+              <li class="fListItem">Support</li>
+              <li class="fListItem">Refund</li>
+              <li class="fListItem">FAQ</li>
+              <li class="fListItem">Feedback</li>
+              <li class="fListItem">Stories</li>
+          </ul>
+      </div>
+      <div class="footerMenu">
+          <h1 class="fMenuTitle">Products</h1>
+          <ul class="fList">
+              <li class="fListItem">Electronics</li>
+              <li class="fListItem">Clothing</li>
+              <li class="fListItem">Watches</li>
+              <li class="fListItem">Footwear</li>
+              <li class="fListItem">Luggage & Bags</li>
+          </ul>
+      </div>
+  </div>
+  <div class="footerRight">
+      <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+          <div class="fMail">
+              <input type="text" placeholder="your@email.com" class="fInput">
+              <button class="fButton">Join!</button>
+          </div>
+      </div>
+      <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Follow Us</h1>
+          <div class="fIcons">
+              <img src="images/facebook.png" alt="" class="fIcon">
+              <img src="images/twitter.png" alt="" class="fIcon">
+              <img src="images/instagram.png" alt="" class="fIcon">
+              <img src="images/whatsapp.png" alt="" class="fIcon">
+          </div>
+      </div>
+      <div class="footerRightMenu">
+          <span class="copyright">Made by - Pritesh Jain</span>
+      </div>
+  </div>
+</footer>
+
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
